@@ -1,0 +1,15 @@
+{
+    "name": "td-wp-plugin/td-di-container",
+    "description": "DI container integration for WordPress.",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robbert van 't Westende",
+            "email": "robbert@totaldesign.com"
+        }
+    ],
+    "require": {
+        "league/container": "^3.3"
+    }
+}
