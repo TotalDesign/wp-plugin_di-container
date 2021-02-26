@@ -8,8 +8,8 @@ Author URI:   https://www.totaldesign.com/
 License:      MIT License
 */
 
-global $container;
-$container = new League\Container\Container;
+global $container, $tdContainer;
+$tdContainer = $container = new League\Container\Container;
 
 add_action('plugins_loaded', function () use ($container) {
     do_action('init_container', $container);
