@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "league/container": "^3.3"
+        "league/container": "^5.1"
     }
 }
